@@ -29,6 +29,10 @@ Username: admin Password: `cafepassword`
     * GitHub 조직을 선택하십시오.
     
     * 파이프라인을 선택합니다.
+    
+    * 에이전트를 docker를 선택합니다.
+
+    * 이미지에 'maven:3.3.9-jdk-8' 를 입력합니다.
 
     * 새로운 Stage를 만들고 Step을 추가합니다.
     
