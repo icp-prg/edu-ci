@@ -2,7 +2,7 @@
 
 ## Open in google cloud shell
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/icpprg/edu-ci.git)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/icp-prg/edu-ci.git)
 
 Spin up the Jenkins server by running:
 `docker-compose up -d` Jenkins is running on port
