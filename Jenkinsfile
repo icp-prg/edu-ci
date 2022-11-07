@@ -11,6 +11,10 @@ pipeline {
         sh 'mvn test -Dtest=!*API*'
       }
     }
-
+    stage('build') {
+      steps {
+         sh 'mvn -B -DskipTests=true package'
+      }
+    }
   }
 }
