@@ -57,7 +57,7 @@ pipeline {
       parallel {
         stage('Test') {
           steps {
-            sh 'mvn test -Dtest=!*API*'
+            sh 'mvn test -Dtest=\!*API*'
           }
         }
 
