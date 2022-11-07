@@ -57,7 +57,7 @@ pipeline {
       parallel {
         stage('Test') {
           steps {
-            sh 'mvn test -Dtest=\!*API*'
+            sh 'mvn test -Dtest=!*API*'
           }
         }
 
@@ -66,13 +66,6 @@ pipeline {
             sh 'mvn -B -DskipTests=true package'
           }
         }
-
-        stage('Acceptance Test') {
-          steps {
-            sh 'mvn test'
-          }
-        }
-
       }
     }
   }
